@@ -1,0 +1,62 @@
+#button-random-color {
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+#color-palette {
+  height: 75px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.color {
+  border: black solid 1px;
+  width: 25%;
+}
+
+#preto {
+  background-color: black;
+}
+
+#musgo {
+  background-color: darkgreen;
+}
+
+#magenta {
+  background-color: fuchsia;
+}
+
+#mostarda {
+  background-color: #ffbf00;
+}
+
+#clear-board {
+  margin-top: 20px;
+  margin-left: 125px;
+}
+
+#pixel-board {
+  display: table;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+#linha {
+  display: table-row;
+}
+
+.pixel {
+  display: table-cell;
+  box-sizing: border-box;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border: black solid 1px;
+}
+
+#board-size {
+  width: 40px;
+  margin-left: 100px;
+}
